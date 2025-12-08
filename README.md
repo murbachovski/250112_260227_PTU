@@ -6,35 +6,6 @@
 
 ### 강의 내용
 ```
-1. 개발 요구사항 분석 및 기술 분석
-교차로 교통 장애물 및 이벤트 감지 시스템의 필요성과 기술적 요구사항을 분석
-
-2. 목표 설정 및 기획서 작성
-프로젝트의 목표 설정 및 기획서 작성
-
-3. 데이터 수집 및 전처리 모듈 개발
-교차로 데이터 수집 및 전처리 작업 수행
-
-4. 객체 감지 및 분류 모델 모듈 개발
-객체 감지를 위한 모델 개발 및 분류 기능 구현
-
-5. 실시간 처리 및 시각화 모듈 개발
-실시간 데이터 처리를 위한 모듈 개발 및 결과 시각화
-
-6. 이벤트 감지 및 분류 모듈 개발
-이벤트 감지를 위한 모듈 개발 및 분류 기능 구현
-
-7. 모델 성능 평가 및 성능 개선
-개발된 모델의 성능 평가 및 개선 작업 수행
-
-8. 교차로 교통 장애물 감지 모듈 개발
-교차로 교통 장애물 감지를 위한 모듈 개발
-
-9. Dashboard 연동, 테스트 및 디버깅
-Dashboard와의 연동, 시스템 테스트 및 디버깅
-
-10. 프로젝트 결과
-프로젝트 PPT 발표
 ```
 
 ### 강의 시간
@@ -53,143 +24,77 @@ Dashboard와의 연동, 시스템 테스트 및 디버깅
 
 ### 강의 목차
 ```
-v0_Install anaconda/
-→ Anaconda 설치 및 환경 설정
-
-v1_Install vscode/
-→ VS Code 설치 및 개발 환경 구성
-
-v2_Basic python/
-→ Python 기초 문법 및 실습
-
-v3_Yolo 기초/
-→ YOLO 객체 탐지 모델 추론 및 활용
-
-v4_TWilio/
-→ Twilio API를 활용한 문자(SMS) 알림 기능 구현
-
-v5_OpenCV2/
-→ OpenCV를 이용한 이미지 처리 실습
-
-v6_Data
-│
-├── v6_1_Data/
-│ → 공공데이터 포털 활용 및 교통/환경 데이터 수집
-│
-├── v6_2_Get Local Data/
-│ → Local 이미지 수집 및 자동 이미지 저장 기능 구현
-│
-└── v6_3_OpenAPI/
-     → 공공기관(OpenAPI) 연계 실시간 정보 수집
-
-v7_YOLO 심화/
-→ Solution 탐색
-├── classify
-├── train classify
-├── detect
-├── params
-├── alarm
-├── distance
-├── sahi
-├── heatmap
-├── region
-├── get region
-├── speed
-├── blurr
-├── crop
-├── in and out
-├── line
-├── YOLOE
-├── multi thread
-├── model.fuse()
-├── Streamlit YOLO
-└── OpenVINO int8
-
-v8_Web
-└── v8_3_Streamlit/
-     → Streamlit을 활용한 YOLO 객체 탐지 실시간 시각화 대시보드 구현
-
-v8_4_Plus/
-    → HuggingFace
-    → ngrok
-    → pip free > requirements.txt
-    → pip install pipreqs
-    → model.fuse()
-    → YOLOE
-    → OpenVINO
-    → YOLO_Streamlit
-    → Export TensorRT
 ```
 
 ---
 ## 강의 관련 링크 모음
 
-### 2. model.fuse
+### model.fuse
 [model.fuse](https://docs.ultralytics.com/reference/engine/model/#ultralytics.engine.model.Model.fuse)
 
 ---
 
-### 3. YOLOE
+### YOLOE
 [YOLOE](https://docs.ultralytics.com/ko/models/yoloe/)
 
 ---
 
-### 4. OpenVINO
+### OpenVINO
 [OpenVINO](https://docs.ultralytics.com/ko/guides/optimizing-openvino-latency-vs-throughput-modes/)
 
 ---
 
-### 6. Streamlit
+### Streamlit
 [Streamlit](https://docs.ultralytics.com/ko/guides/streamlit-live-inference/)
 
 ---
 
-### 7. Training
+### Training
 [Training](https://docs.ultralytics.com/yolov5/tutorials/tips_for_best_training_results/)
 
 ---
 
-### 8. Line, MultiThread 관련 Ultralytics 공식 문서 자료
+### Line, MultiThread 관련 Ultralytics 공식 문서 자료
 [Ultralytics](https://docs.ultralytics.com/ko/modes/track/#faq)
 
 ---
 
-### 9. TensorRT 관련 Ultralytics 공식 문서 자료
+### TensorRT 관련 Ultralytics 공식 문서 자료
 [Ultralytics TensorRT](https://docs.ultralytics.com/ko/integrations/tensorrt/)
 
 ---
 
-### 10. Miro
+### Miro
 [Miro](https://miro.com/app/dashboard/)
 
 ---
 
-### 11. MLOPS
+### MLOPS
 [Google MLOps](https://docs.cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning?hl=ko#devops_versus_mlops)
 
 ---
 
-### 12. LabelImg
+### LabelImg
 [LabelImg](https://github.com/HumanSignal/labelImg)<br>
 
 ---
 
-### 13. RoboFlow
+### RoboFlow
 [Roboflow](https://roboflow.com/)<br>
 
 ---
 
-### 14. Pixels
+### Pixels
 [pixels](https://roboflow.com/)<br>
 
 ---
 
-### 15. ITS
+### ITS
 [ITS](https://its.go.kr/)<br>
 
 ---
 
-### 16. 성능평가 관련
+### 성능평가 관련
 🚩 [Precision-Recall vs. ROC Curve - CosmicCoding](https://cosmiccoding.com.au/tutorials/pr_vs_roc_curves/) <br>
 🚩 [Receiver Operating Characteristic (ROC) - Wikipedia](https://en.wikipedia.org/wiki/Receiver_operating_characteristic) <br> 
 🚩 [Confusion Matrix - Wikipedia](https://en.wikipedia.org/wiki/Confusion_matrix) <br>
@@ -199,33 +104,34 @@ v8_4_Plus/
 
 ---
 
-### 17. 성능 평가 문제
+### 성능 평가 문제
 🚩 [Google Machine Learning Crash Course - Precision & Recall](https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall) <br>
 🚩 [Google Machine Learning Crash Course - Classification: ROC and AUC](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc) <br>
 
 ---
 
-## 강의 관련 내용 모음
-### 00. OpenAPI 설명
+### OpenAPI 설명
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9e80f6a1-f7c2-47ee-b162-a59e9cc888fb" width="1000">
 </p>
 
-### 1. APIKEY
+---
+
+### APIKEY
 ```
 db5c00dc1fce45c49049bff225a0fea6
 ```
 
 ---
 
-### 2. API 요청 URL 생성
+### API 요청 URL 생성
 ```
 url_cctv = f"https://openapi.its.go.kr:9443/cctvInfo?apiKey={key}&type={Type}&cctvType=1&minX={minX}&maxX={maxX}&minY={minY}&maxY={maxY}&getType={getType}"
 ```
 
 ---
 
-### 3. 면적 측정
+### 면적 측정
 
 1. [구글맵](https://www.google.co.kr/maps/?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D)
 <p align="center">
@@ -244,7 +150,7 @@ url_cctv = f"https://openapi.its.go.kr:9443/cctvInfo?apiKey={key}&type={Type}&cc
 
 ---
 
-### 4. YOLO custom_datasets 경로 셋팅
+### YOLO custom_datasets 경로 셋팅
 ```
 coco8.yaml => path : coco8 폴더 경로, train : train 폴더 경로, val : val 폴더 경로
 model.train(data='coco8.yaml 파일 경로')
@@ -252,7 +158,7 @@ model.train(data='coco8.yaml 파일 경로')
 
 ---
 
-### 5. Background images
+### Background images
 <img src="https://github.com/user-attachments/assets/052d795a-8361-4905-b325-8124e7ba729d" width="600">
 ```
 FP => 거짓 탐지 => 오탐을 줄일 수 있다.
@@ -260,14 +166,14 @@ FP => 거짓 탐지 => 오탐을 줄일 수 있다.
 
 ---
 
-### 6. Data Augmentation
+### Data Augmentation
 <p align="center">
   <img src="https://github.com/user-attachments/assets/81c866a3-c39d-4cb4-89d6-a7bc818e7a65" width="600">
 </p>
 
 ---
 
-### 7. 파이썬 경고음 넣기
+### 파이썬 경고음 넣기
 [더미 경고음 사이트](https://pixabay.com/ko/sound-effects/search/%EA%B2%BD%EA%B3%A0%EC%9D%8C/)
 
 ---
@@ -289,7 +195,7 @@ playsound('./alarm.mp3')
 
 ---
 
-### 8. requirements.txt 생성 라이브러리 piqres
+### requirements.txt 생성 라이브러리 piqres
 ```
 1. 기존 pip freeze 와 비교
 2. pip freeze > requirements.txt
@@ -299,7 +205,7 @@ playsound('./alarm.mp3')
 
 ---
 
-### 9. ngrok 외부 호스팅
+### ngrok 외부 호스팅
 ```
 1. ngrok 설치 https://ngrok.com/downloads/windows?tab=download
 2. 실행 명령어 ngrok http 8051(자신의 포트번호)
@@ -312,7 +218,7 @@ playsound('./alarm.mp3')
 
 ---
 
-### 10. requirements.txt 만들기
+### requirements.txt 만들기
 ```
 1. pip install pipreqs 설치
 2. 프로젝트 폴더 경로 이동
@@ -322,7 +228,7 @@ playsound('./alarm.mp3')
 
 ---
 
-### 11. Twilio 활용하여 Python으로 문자 알림 보내기
+### Twilio 활용하여 Python으로 문자 알림 보내기
 [Twilio](https://www.twilio.com/en-us)
 ```
 Twilio 회원가입 후
@@ -335,35 +241,35 @@ Twilio 회원가입 후
 
 ---
 
-### 12. README.md 파일 작성법 및 소개
+### README.md 파일 작성법 및 소개
 ```
 https://gist.github.com/ihoneymon/652be052a0727ad59601
 ```
 
 ---
 
-### 13. Precision(정밀도)
+### Precision(정밀도)
 ```
 모델의 Positive로 판정한 것 중, 실제 Positive 비율
 ```
 
 ---
 
-### 14. Recall(재현율)
+### Recall(재현율)
 ```
 실제 Positive 중 모델의 Positive 비율
 ```
 
 ---
 
-### 15. F1-score
+### F1-score
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4fdffc5c-ae29-4dab-8ec0-5f80e025d268" width="300">
 </p>
 
 ---
 
-### 16. 조화평균(여러 값의 평균을 구할 때, 작은 값이 상대적으로 더 큰 영향을 주는 평균 방식)
+### 조화평균(여러 값의 평균을 구할 때, 작은 값이 상대적으로 더 큰 영향을 주는 평균 방식)
 ```
 1. Precision과 Recall 중 하나라도 낮으면 F1-score도 낮아짐
   예를 들어 Precision = 90, Recall = 10이면 일반 평균은 50이지만, 조화평균을 쓰면 F1-score ≈ 18.2로 낮아짐 → 한쪽이 낮으면 전체 성능도 낮게 반영
@@ -377,7 +283,7 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 ---
 
-### 17. ROC Curve
+### ROC Curve
 <p align="center">
   <img src="https://github.com/user-attachments/assets/91d7948a-ec7e-483a-b8eb-e0e1a53e0f60" width="300">
 </p>
@@ -389,7 +295,7 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 ---
 
-### 18. Precision과 Recall의 경우의 수
+### Precision과 Recall의 경우의 수
 | Precision (정밀도) | Recall (재현율) | 의미                                       |
 |-------------------|---------------|------------------------------------------|
 | 높음               | 높음            | 이상적인 모델 (오탐과 미탐이 적음)              |
@@ -397,7 +303,7 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 | 낮음               | 높음            | 많은 객체를 탐지하지만 오탐이 많음 (오탐 증가)     |
 | 낮음               | 낮음            | 모델 성능이 매우 나쁨 (오탐과 미탐이 많음)        |
 
-### 19. Precision-Recall 관련 문제
+### Precision-Recall 관련 문제
 #### 객체 탐지 모델을 적용했더니 탐지된 객체는 대부분 정확하지만, 많은 실제 객체를 놓치는 경우
 ```
 ✅ 정답: Precision ↑, Recall ↓
@@ -430,7 +336,7 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 ---
 
-### 20. Hard Negative Mining
+### Hard Negative Mining
 ```
 객체 탐지 모델에서 오탐(False Positive)이 많은 경우, 특히 배경을 객체로 잘못 인식하는 문제를 해결하는 기법
 즉, 모델이 헷갈려하는 "어려운 배경(하드 네거티브)"을 학습 데이터로 추가하여 성능을 개선하는 방법
@@ -438,7 +344,7 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 ---
 
-### 21. Base64 인코딩
+### Base64 인코딩
 <p align="center">
   <img src="https://github.com/user-attachments/assets/84a0bfe9-ce05-46cc-84f1-ac3343aa3c73" width="600">
 </p>
@@ -449,7 +355,7 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 ---
 
-### 22. Anaconda 환경 셋팅
+### Anaconda 환경 셋팅
 가상환경 생성
 ```
 conda create -n "가상환경 이름" python=3.9
@@ -475,14 +381,14 @@ pip install ultralytics
 
 ---
 
-### 23. README.md 파일 작성법 및 소개
+### README.md 파일 작성법 및 소개
 ```
 https://gist.github.com/ihoneymon/652be052a0727ad59601
 ```
 
 ---
 
-### 24. HuggingFace<br>
+### HuggingFace<br>
 [허깅페이스](https://huggingface.co/)<br>
 ```
 1. 회원가입
@@ -535,7 +441,7 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 ---
 
-## 💡Tensorboard 확인
+### Tensorboard 확인
 ```
 # log 파일 생성 확인 방법
 Yolo Train => runs/detect/train/events.out.tfevents.1744182544.2AT.1604
@@ -549,7 +455,7 @@ tensorboard --logdir="C:/Users/Administrator/Desktop/ai/runs/detect/train"
 
 ---
 
-## 🔍 `visualize=True` 시각화 스테이지 분석
+### visualize=True 시각화 스테이지 분석
 <p align="left">
   <img src="https://github.com/user-attachments/assets/927a7a29-d8de-4cca-85d4-d5d348c80ffd" width="700">
 </p>
