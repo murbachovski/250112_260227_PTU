@@ -40,7 +40,7 @@ Dashboard와의 연동, 시스템 테스트 및 디버깅
 ### 강의 시간
 
 ```
-1) 09:30 ~ 10:20(50분)
+~~1) 09:30 ~ 10:20(50분)~~
 2) 10:30 ~ 11:20(50분)
 3) 11:30 ~ 12:20(50분)
 4) 12:30 ~ 13:20(50분)
@@ -123,7 +123,7 @@ v8_4_Plus/
 ```
 
 ---
-## 참고 사항
+## 강의 관련 링크 모음
 ### 1. requirements.txt 생성 라이브러리 piqres
 ```
 1. 기존 pip freeze 와 비교
@@ -186,20 +186,32 @@ v8_4_Plus/
 ### 11. Miro
 [Miro](https://miro.com/app/dashboard/)
 
+---
+
 ### 12. MLOPS
 [Google MLOps](https://docs.cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning?hl=ko#devops_versus_mlops)
+
+---
 
 ### 13. LabelImg
 [LabelImg](https://github.com/HumanSignal/labelImg)<br>
 
+---
+
 ### 14. RoboFlow
 [Roboflow](https://roboflow.com/)<br>
 
-### 15. Pixels
-[pixels](https://roboflow.com/)<br>
 ---
 
-# https://its.go.kr/
+### 15. Pixels
+[pixels](https://roboflow.com/)<br>
+
+### 16. ITS
+[ITS](https://its.go.kr/)<br>
+
+---
+
+
 APIKEY
 ```
 db5c00dc1fce45c49049bff225a0fea6
@@ -210,18 +222,9 @@ db5c00dc1fce45c49049bff225a0fea6
 url_cctv = f"https://openapi.its.go.kr:9443/cctvInfo?apiKey={key}&type={Type}&cctvType=1&minX={minX}&maxX={maxX}&minY={minY}&maxY={maxY}&getType={getType}"
 ```
 
-# 수업 관련 링크 모음
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/3a89f014-558f-4191-ba25-583971a1c034" width="300">
-  <img src="https://github.com/user-attachments/assets/c2d4d830-6141-4da8-9952-28e750ab1c43" width="300">
-</p>
-
-## 💡평택대학교 프로젝트
-```
-인파 밀집 시스템 개발
-```
-
+TEAM
+---
 ## 💡팀 현황
 1. [Pyeongtaek_AI_YOLO_Team](https://github.com/rivermin01/Pyeongtaek_AI_YOLO_Team/tree/Develop)<br>
 2. [pyeongtaek_A](https://github.com/dksengh/pyeongtaek_A/tree/main)<br>
@@ -293,11 +296,6 @@ cap = cv2.VideoCapture("https://cctvsec.ktict.co.kr/6246/cCCtjN+N+EnDEdCu9wHS00X
 ### 설명
 ```
 각 웹에서 거리 및 면적 측정 가능
-```
-
-## 💡~~OC_SORT 모델 활용~~
-```
-https://github.com/noahcao/OC_SORT/tree/master
 ```
 
 ## 💡YOLO custom_datasets 경로 셋팅
