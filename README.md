@@ -493,7 +493,6 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 ---
 
-**<p>$\it{\large{\color{#DD6565}25.04.07.월}}$</p>**
 **Original Image**<br>
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/9a975c01-97eb-46e6-a755-3042c6919213" width="500" height="500" style="object-fit: cover;">
@@ -513,7 +512,6 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 ---
 
-**<p>$\it{\large{\color{#DD6565}25.04.08.화}}$</p>**
 **Resuming Interrupted Trainings**<br>
 [YOLO Train Parameter resume](https://docs.ultralytics.com/modes/train/#resuming-interrupted-trainings)<br>
 
@@ -552,7 +550,7 @@ pip install tensorboard
 tensorboard --logdir="C:/Users/Administrator/Desktop/ai/runs/detect/train"
 ```
 
-- - -
+---
 
 ## 🔍 `visualize=True` 시각화 스테이지 분석
 <p align="left">
