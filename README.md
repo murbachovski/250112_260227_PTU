@@ -14,7 +14,7 @@
 
 ---
 
-## 구성원
+## 💡구성원
 ```
 팀장: OOO
 팀원: OOO, OOO
@@ -22,7 +22,7 @@
 
 ---
 
-## 설명
+## 💡설명
 ```
 YOLO를 활용한...
 ```
@@ -55,7 +55,7 @@ python3 app.py
 
 ---
 
-## OpenAPI<br>
+## 💡OpenAPI<br>
 [ITS 국가교통정보센터](https://its.go.kr/opendata/opendataList?service=cctv)<br>
 ```
 1. 인증키 신청
@@ -66,7 +66,7 @@ python3 app.py
 
 ---
 
-## HuggingFace<br>
+## 💡HuggingFace<br>
 [허깅페이스](https://huggingface.co/)<br>
 ```
 1. 회원가입
@@ -79,7 +79,7 @@ python3 app.py
 
 ---
 
-### 팀_프로젝트
+### 💡팀_프로젝트
     🚩 타임 테이블 작성
     🚩 주제 선정
     🚩 깃허브 main/develop branch 분할 생성
@@ -89,12 +89,12 @@ python3 app.py
 
 ---
 
-## 🎁프로젝트 진행
+## 💡프로젝트 진행
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a48edc5f-2036-4fba-8f50-e482d6bb4d50" width="700">
 </p>
 
-## 🎁참고 문서
+## 💡참고 문서
 **OpenAPI 활용**<br>
 [ITS 국가교통정보센터](https://its.go.kr/opendata/opendataList?service=cctv)<br>
 
@@ -102,7 +102,7 @@ python3 app.py
 [교통량 측정 CCTV](https://www.mk.co.kr/news/politics/10847270)<br>
 
 ---
-## 🎁프로젝트 진행 프로세스
+## 💡프로젝트 진행 프로세스
 ```
 1. 타임 테이블 작성 (세부 일정 확정)
 2. GitHub 생성 및 브랜치 전략 수립
@@ -137,12 +137,12 @@ Jira, Trello, GitHub Projects 등을 활용한 일정 및 작업 관리
 추가 개선 작업 진행 여부 결정
 ```
 
-## 🎁타임 테이블(예시
+## 💡타임 테이블(예시
 <p align="center">
   <img src="https://github.com/user-attachments/assets/25babc94-10e1-473f-9fee-11ed3c406d91" width="600">
 </p>
 
-## 🎁프로젝트 일정 수립(예시
+## 💡프로젝트 일정 수립(예시
 
 | 날짜        | 내용                          |
 |------------|-----------------------------|
@@ -156,7 +156,7 @@ Jira, Trello, GitHub Projects 등을 활용한 일정 및 작업 관리
 
 위 일정에 따라 프로젝트를 진행하며, 각 단계별 진행 상황을 지속적으로 공유할 예정입니다.
 
-## 🎁기술 스택 & 협업 환경
+## 💡기술 스택 & 협업 환경
 ```
 프레임워크: TensorFlow, PyTorch
 개발 도구: Python, OpenCV, YOLO
@@ -172,18 +172,18 @@ Jira, Trello, GitHub Projects 등을 활용한 일정 및 작업 관리
 예상 질문 리스트 정리 후 Q&A 준비
 ```
 
-## 🎁테스트 및 평가
+## 💡테스트 및 평가
 ```
 프로젝트 성능 평가 지표 확정 (정확도, 속도, False Positive Rate 등)
 실제 교차로 데이터를 활용한 테스트 계획 수립
 ```
 
-## 🎁설명(예시
+## 💡설명(예시
 ```
 YOLO를 활용한 교차로 불법 주차 관리 시스템 개발
 ```
 
-## 🎁환경 셋팅(예시
+## 💡환경 셋팅(예시
 The code requires python>=3.9 and we use torch==1.10.2 and torchvision==0.11.3. To visualize the results, matplotlib>=3.5.1 is also required.
 ```
 python>=3.7
@@ -192,12 +192,12 @@ torchvision==0.11.3
 matplotlib==3.5.1
 ```
 
-## 🎁환경 설치(예시
+## 💡환경 설치(예시
 ```
 pip install -r requirements.txt
 ```
 
-## 🎁실행(예시
+## 💡실행(예시
 ```
 cd team_project
 python3 app.py
