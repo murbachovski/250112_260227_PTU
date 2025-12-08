@@ -4,26 +4,30 @@
 1. [Pyeongtaek_AI_YOLO_Team](https://github.com/rivermin01/Pyeongtaek_AI_YOLO_Team/tree/Develop)<br>
 2. [pyeongtaek_A](https://github.com/dksengh/pyeongtaek_A/tree/main)<br>
 3. [PTU-VISION](https://github.com/PTU-hehyj/PTU-VISION/tree/Develope)<br>
-## 🎁팀 현황
-1. [JoyK](https://github.com/JoYoungKyu/team_project)<br>
-2. [4way](https://github.com/borasarang3/4way/tree/main)<br>
-3. [Don`t Cross Line](https://github.com/Hj-1000/AI_Project)<br>
-## 🎁팀 현황
-1. [A조](https://github.com/JoYoungKyu/JoYoungKyu.github.io)<br>
-2. [B조](https://github.com/murbachovski/Woori_Talent_Development_Center/edit/team/README.md)<br>
-3. [C조](https://github.com/murbachovski/Woori_Talent_Development_Center/edit/team/README.md)<br>
-4. [D조](https://github.com/murbachovski/Woori_Talent_Development_Center/edit/team/README.md)<br>
+4. [JoyK](https://github.com/JoYoungKyu/team_project)<br>
+5. [4way](https://github.com/borasarang3/4way/tree/main)<br>
+6. [Don`t Cross Line](https://github.com/Hj-1000/AI_Project)<br>
+7. [A조](https://github.com/JoYoungKyu/JoYoungKyu.github.io)<br>
+8. [B조](https://github.com/murbachovski/Woori_Talent_Development_Center/edit/team/README.md)<br>
+9. [C조](https://github.com/murbachovski/Woori_Talent_Development_Center/edit/team/README.md)<br>
+10. [D조](https://github.com/murbachovski/Woori_Talent_Development_Center/edit/team/README.md)<br>
+
+---
 
 ## 💡구성원(예시
 ```
-팀장: 김대진
-팀원: 김대진, 김대진
+팀장: OOO
+팀원: OOO, OOO
 ```
+
+---
 
 ## 💡설명(예시
 ```
 YOLO를 활용한...
 ```
+
+---
 
 ## 💡환경 셋팅(예시
 The code requires python>=3.7 and we use torch==1.10.2 and torchvision==0.11.3. To visualize the results, matplotlib>=3.5.1 is also required.
@@ -34,16 +38,22 @@ torchvision == 0.11.3
 matplotlib==3.5.1
 ```
 
+---
+
 ## 💡환경 설치(예시
 ```
 pip install -r requirements.txt
 ```
+
+---
 
 ## 💡실행(예시
 ```
 cd team_project
 python3 app.py
 ```
+
+---
 
 ## OpenAPI<br>
 [ITS 국가교통정보센터](https://its.go.kr/opendata/opendataList?service=cctv)<br>
@@ -53,6 +63,8 @@ python3 app.py
 3. kdt/v05_openapi/_03_api_yolo.py 코드 확인
 4. 발급 받은 인증키 넣어준 뒤 실행
 ```
+
+---
 
 ## HuggingFace<br>
 [허깅페이스](https://huggingface.co/)<br>
@@ -65,16 +77,17 @@ python3 app.py
 6. 코드 실행
 ```
 
-# WTDC(Woori_Talent_Development_Center) 
+---
 
-22. 팀_프로젝트
+### 팀_프로젝트
     🚩 타임 테이블 작성
     🚩 주제 선정
     🚩 깃허브 main/develop branch 분할 생성
     🚩 팀장 선정
     🚩 11일(금) 1차 발표
     🚩 18일(금) 2차 발표
-```
+
+---
 
 ## 🎁프로젝트 진행
 <p align="center">
@@ -85,43 +98,8 @@ python3 app.py
 **OpenAPI 활용**<br>
 [ITS 국가교통정보센터](https://its.go.kr/opendata/opendataList?service=cctv)<br>
 
-**OpenAPI ITS 활용법**<br>
-[고속도로 CCTV Open API 불러오기(ITS 국가교통정보센터)](https://s0ysauce.tistory.com/38)<br>
-
 **AI 활용 사례**<br>
 [교통량 측정 CCTV](https://www.mk.co.kr/news/politics/10847270)<br>
-
----
-
-**<p>$\it{\large{\color{#DD6565}25.04.10.목}}$</p>**
-✅ 1차 발표 안내 (2026.00.00.0)
-```
-발표 시작 : 오후 00시 (00:00)
-
-발표 시간 : 팀당 15분 내외
-
-질의응답 : 모든 인원은 발표 후 질문 1개 이상 필수
-
-발표 순서 : 강의 종료 전 까지 전달
-```
-
-**<p>$\it{\large{\color{#DD6565}25.04.17.목}}$</p>**
-## 최종 프로젝트 발표 안내
-### 25.04.18.금.16시 ~ 최종 프로젝트 발표
-### 1. 발표 순서 정하기
-### 2. 발표 시간 15분 ~
-### 3. 질문 1개씩
-### 4. ai.murbachovski@gmail.com => 발표 자료 전달
-  ### 4-1. 발표 파일 이름 형식 => "조 이름_프로젝트 이름"
-  ### 4-2. 25.04.18.금.15시 30분 까지 전달
-
----
-
-**<p>$\it{\large{\color{#DD6565}25.04.18.금}}$</p>**
-## 최종 프로젝트 발표
-- - -
-
-
 
 ---
 ## 🎁프로젝트 진행 프로세스
