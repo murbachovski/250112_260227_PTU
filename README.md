@@ -288,6 +288,7 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 <p align="center">
   <img src="https://github.com/user-attachments/assets/91d7948a-ec7e-483a-b8eb-e0e1a53e0f60" width="300">
 </p>
+
 ```
 ✅ ROC Curve는 모델의 전체적인 분류 성능을 평가하는 곡선
 ✅ FPR vs. TPR의 관계를 나타내며, 좌상단에 가까울수록 좋은 모델
