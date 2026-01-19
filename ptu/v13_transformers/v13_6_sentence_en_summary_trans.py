@@ -1,30 +1,39 @@
 # 1. 라이브러리 불러오기
 from transformers import pipeline
 from deep_translator import GoogleTranslator
-# pip install deep-translator
-# *영어 => 한국어로 번역하는 함수 정의
 
-def trans_en_kr(english_text):
-    trans_sen = GoogleTranslator(source="auto", target="ko").translate(english_text)
-    return trans_sen
+def trans_en_to_ko(sentence):
+    """
+    주어진 영어 문장을 한국어로 번역하는 함수
+    """
+    translated_sen = GoogleTranslator(source='en', target='ko').translate(sentence)
+    return translated_sen
 
 # 2. 요약 파이프라인 생성
-summary = pipeline(
+summarizer = pipeline(
     "summarization",
     model="t5-small"
 )
 
 # 3. 요약할 영어 문장 입력
 text = """
-The Transformers library by Hugging Face provides state-of-the-art general-purpose architectures for natural language understanding and generation. It offers a wide range of pre-trained models that can be fine-tuned for various NLP tasks such as text classification, named entity recognition, question answering, and text summarization. The library is built on top of PyTorch and TensorFlow, making it easy to integrate into existing machine learning workflows. With its user-friendly API and extensive documentation, the Transformers library has become a popular choice among researchers and developers in the field of natural language processing.
+A special 25th anniversary edition of the extraordinary international bestseller, including a new Foreword by Paulo Coelho.
+Combining magic, mysticism, wisdom and wonder into an inspiring tale of self-discovery, The Alchemist has become a modern classic, selling millions of copies around the world and transforming the lives of countless readers across generations.
+Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different-and far more satisfying-than he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, of recognizing opportunity and learning to read the omens strewn along life's path, and, most importantly, to follow our dreams.
 """
 
 # 4. 요약문 생성
-summary_text = summary(text)
+summary = summarizer(text)
 
 # 5. 요약문 가져오기
-english_summary = summary_text[0]['summary_text']
+sum_text = summary[0]["summary_text"]
 
-# 6. 영어 요약문을 한국어로 번역
-trans_sum_ko = trans_en_kr(english_summary)
-print(trans_sum_ko)
+# 6. 요약문 출력
+print(f"### 요약된 영어 문장 : {sum_text} ###")
+
+# 7. 요약문 번역
+# kr_sum_text = GoogleTranslator(source='en', target='ko').translate(sum_text)
+kr_sum_text = trans_en_to_ko(sum_text)
+
+# 8. 번역된 요약문 출력
+print(f"### 번역된 한국어 문장 : {kr_sum_text} ###")
